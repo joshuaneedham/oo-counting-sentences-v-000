@@ -16,9 +16,6 @@ class String
   end
 
   def count_sentences
-    sentence?.each do |one_sentence| 
-      one_sentence.to_s 
-    end
-    one_sentence
-  end
+    how_many = self.split(/$[\.!?]/)
+    how_many
 end
