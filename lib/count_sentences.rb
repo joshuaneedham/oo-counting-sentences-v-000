@@ -16,7 +16,7 @@ class String
   end
 
   def count_sentences
-    sentences = sentence?
+    sentences = sentence?.to_s
     return sentences
   end
 end
