@@ -16,6 +16,7 @@ class String
   end
 
   def count_sentences
-
+    sentences = sentence?
+    return sentences
   end
 end
