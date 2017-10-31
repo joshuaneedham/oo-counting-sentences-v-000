@@ -16,7 +16,9 @@ class String
   end
 
   def count_sentences
-    sentences = sentence?.to_s
-    return sentences
+    sentence?.each do |one_sentence| 
+      one_sentence.to_s 
+    end
+    one_sentence
   end
 end
